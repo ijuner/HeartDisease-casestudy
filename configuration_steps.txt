@@ -1,0 +1,27 @@
+Pip Commands:
+
+pip install pandas  
+pip install numpy  
+pip install matplotlib  
+pip install seaborn  
+pip install scikit-learn  
+pip install scipy  
+pip install statsmodels 
+pip install google-generativeai
+
+Getting an Gemini API Key:
+1. Go to: https://aistudio.google.com/app/apikey 
+
+2. Sign in with a Google account. 
+
+3. Click "Get API key" (not “Create API key”, “Get API Key” shows in full screen) 
+
+4. Copy the API key shown.
+
+5. After getting the API key, paste the API key into this line in the notebook:
+os.environ["GOOGLE_API_KEY"] = "paste_the_api_key_here"
+
+6. Enter this into the environments terminal if on windows:
+set GOOGLE_API_KEY=your_api_key_here
+
+7. Restart the kernal, and user story generation will run
